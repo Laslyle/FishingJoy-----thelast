@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\BackgroundLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\CannonLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\Fish.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\FishLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\GameMenuLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\MenuLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\PaneLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Hong\Desktop\classes\StaticData.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\BackgroundLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\CannonLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\Fish.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\FishLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\GameMenuLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\MenuLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\PaneLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Hong\Desktop\classes\StaticData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FishingJoy.rc" />
+  </ItemGroup>
+</Project>
