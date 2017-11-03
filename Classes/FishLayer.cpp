@@ -11,8 +11,9 @@ FishLayer::FishLayer(void)
 FishLayer::~FishLayer(void)
 {
 	CC_SAFE_RELEASE_NULL(_fishes);
+
 }
- /*bool FishLayer::init()
+bool FishLayer::init()
 {
 	if (!CCLayer::init())
 	{
@@ -24,16 +25,17 @@ FishLayer::~FishLayer(void)
 	CC_SAFE_RETAIN(_fishes);
 	for (int i = 0; i < FISH_MAX_COUNT; i++)
 	{
-		int type = CCRANDOM_0_1() * k_Fish_Type_Count - 1;
+		//int type = CCRANDOM_0_1() * k_Fish_Type_Count;
+		int type= CCRANDOM_0_1() * 16+1;
 		CCLOG("FishLayer type=%d",type);
 		Fish *fish = Fish::create((FishType)type);
 		_fishes->addObject(fish);
 	}
-	this->schedule(schedule_selector(FishLayer::addFish),3.0f);
+	this->schedule(schedule_selector(FishLayer::addFish),3.0);
 	return true;
 }
-*/
-bool FishLayer::init()
+
+/*bool FishLayer::init()
 {
 	if (!CCLayer::init())
 	{
@@ -43,7 +45,7 @@ bool FishLayer::init()
 	addChild(fish);
 	fish->setPosition(ccp(1024,800));
 	return true;
-}
+}*/
 
 
 
