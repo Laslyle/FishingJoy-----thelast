@@ -26,7 +26,7 @@ bool FishLayer::init()
 	for (int i = 0; i < FISH_MAX_COUNT; i++)
 	{
 		//int type = CCRANDOM_0_1() * k_Fish_Type_Count;
-		int type= CCRANDOM_0_1() * 16+1;
+		int type= CCRANDOM_0_1() * (k_Fish_Type_Count-1)+1;
 		CCLOG("FishLayer type=%d",type);
 		Fish *fish = Fish::create((FishType)type);
 		_fishes->addObject(fish);
