@@ -35,7 +35,7 @@ bool Fish::init(FishType type)
 	{
 		return false;
 	}
-	if (type < k_Fish_Type_SmallFish || type >= k_Fish_Type_Count)
+	if (type <= k_Fish_Type_SmallFish || type > k_Fish_Type_Count)
 	{
 		type = k_Fish_Type_SmallFish;
 	}
