@@ -7,7 +7,7 @@ class FishingJoyData :
 	public cocos2d::CCObject
 {
 public:
-	static FishingJoyData* sharedFishingJoyData();
+	static FishingJoyData* getInstance();
 
 	FishingJoyData();
 	~FishingJoyData();

@@ -19,7 +19,7 @@ FishingJoyData::~FishingJoyData(void)
 	this->flush();
 }
 
-FishingJoyData* FishingJoyData::sharedFishingJoyData()
+FishingJoyData* FishingJoyData::getInstance()
 {
 	if(NULL == _sharedFishingJoyData)
 	{
@@ -50,7 +50,7 @@ void FishingJoyData::reset()
 {
 	this -> setMusic(true);
 	this -> setSound(true);
-	this -> setGold(200);
+	this -> setGold(400);
 	this -> setIsBeginer(false);
 	this -> flush();
 }

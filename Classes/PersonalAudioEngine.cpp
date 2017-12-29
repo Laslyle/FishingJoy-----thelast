@@ -23,10 +23,16 @@ PersonalAudioEngine* PersonalAudioEngine::sharedEngine()
 
 bool PersonalAudioEngine::init()
 {
-	this->preloadBackgroundMusic("music_1.mp3");
+	this->preloadBackgroundMusic("music_6.mp3");
 	this->preloadEffect("bgm_button.aif");
 	this->preloadEffect("bgm_fire.aif");
 	this->preloadEffect("bgm_net.mp3");
 
 	return true;
+}
+
+void PersonalAudioEngine::setBackgroundMusic(bool flag)
+{
+	flag ? this->pauseBackgroundMusic() : this->resumeBackgroundMusic();
+	FishingJoyData::getInstance()->setMusic(!flag);
 }
