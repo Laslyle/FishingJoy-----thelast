@@ -130,7 +130,8 @@ void GameScene::fishWillBeCaught(Fish* fish)
 	float fishPercents[	k_Fish_Type_Count] = { 1.0f, 0.9f, 0.8f, 0.7f, 0.6f, 0.5f, 0.4f };
 	int cannonType = _cannonLayer->getWeapon()->getCannonType();
 	int fishType = fish->getType();
-	if(CCRANDOM_0_1() < cannonType*fishType)
+	float gailv=weaponPercents[cannonType]*fishPercents[fishType];
+	if(CCRANDOM_0_1() <gailv );
 	{
 		fish->beCaught();
 		PersonalAudioEngine::sharedEngine()->playEffect("bgm_net.mp3");
